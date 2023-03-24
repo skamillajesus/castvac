@@ -1,0 +1,62 @@
+/* Estilos para todos los elementos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Estilos para la tabla */
+#tabla-datos {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#tabla-datos td,
+#tabla-datos th {
+  border: 1px solid #202020;
+  padding: 8px;
+}
+
+#tabla-datos th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+}
+
+/* Estilos para hacer la tabla responsive */
+@media screen and (max-width: 600px) {
+  #tabla-datos {
+    font-size: 14px;
+  }
+  
+  #tabla-datos td,
+  #tabla-datos th {
+    padding: 6px;
+  }
+  
+  #tabla-datos th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
